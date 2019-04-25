@@ -1,0 +1,15 @@
+h1,
+h3{
+    text-align: center;
+}
+h1{
+    color: #00ff00;
+}
+.test{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#out_num{
+    text-align: center;
+}
