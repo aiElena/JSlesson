@@ -14,6 +14,7 @@ let tablMultiply ={
         }
     }
 };
+
 document.getElementById("out_num").innerHTML=tablMultiply.tbl(0, 2);
 
 
