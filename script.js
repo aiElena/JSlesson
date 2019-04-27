@@ -32,6 +32,7 @@ let maths ={
         return(rez);
     }
 };
+
 document.getElementById("out_num1").innerHTML=maths.sum(5, 6);
 document.getElementById("out_num2").innerHTML=maths.multiply(8, 6);
 document.getElementById("out_num3").innerHTML=maths.del(9, 6);
