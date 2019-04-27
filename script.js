@@ -30,6 +30,10 @@ let maths ={
         rez ='квадрат числа ' + x + ' = ' + (x * x) + '<br>';
         /*document.write(rez);*/
         return(rez);
+    },
+    minus:function ( x, y) {
+        rez = x + ' - ' + y + ' = ' +(x - y) + '<br>';
+        return(rez);
     }
 };
 
@@ -38,6 +42,7 @@ document.getElementById("out_num2").innerHTML=maths.multiply(8, 6);
 document.getElementById("out_num3").innerHTML=maths.del(9, 6);
 document.getElementById("out_num4").innerHTML=maths.subtraction(7, 6);
 document.getElementById("out_num5").innerHTML=maths.root(8);
+document.getElementById("out_num6").innerHTML=maths.minus(8, 7);
 
 
 let arr = [1, 2, 3, 4, 5, 6];

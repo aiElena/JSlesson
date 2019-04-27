@@ -1,21 +1,26 @@
+
+
+
 function tb(x, y) {
     for (x = 0; x <= 10; x++) {
         document.write(x + '*' + (y) + '= ' + (x * y) + '<br>');
     }
 }
-tb(0, 3);
+tb(1, 3);
+document.getElementById("out_num").innerHTML=tb(0, 4);
 
 let tablMultiply ={
     tbl:function (x, y) {
         for (x = 0; x <= 10; x++) {
             rez = (x + '*' + (y) + '= ' + (x * y) + '<br>');
             return (rez);
-            document.getElementById("out_num").innerHTML=rez;
         }
     }
 };
 
-document.getElementById("out_num").innerHTML=tablMultiply.tbl(0, 2);
+document.getElementById("out_num").innerHTML=tablMultiply.tbl(0, 5);
+
+
 
 
 /*let obj = {

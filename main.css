@@ -15,11 +15,28 @@ h1{
 #out_num2,
 #out_num3,
 #out_num4,
-#out_num5 {
+#out_num5,
+#out_num6{
     text-align: center;
 }
 
 #out_num {
     border: 1px solid #00ff00;
     padding: 5px 0;
+}
+#out_num1,
+#out_num2,
+#out_num3,
+#out_num4,
+#out_num5,
+#out_num6{
+    border: 1px solid #ff0000;
+    padding: 5px 0;
+}
+.box{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ccc;
+    border: 1px solid #000;
 }
