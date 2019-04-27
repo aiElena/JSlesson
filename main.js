@@ -1,17 +1,29 @@
-function bum(x, y) {
-    for (; x <= 10; x++) {
+function tb(x, y) {
+    for (x = 0; x <= 10; x++) {
         document.write(x + '*' + (y) + '= ' + (x * y) + '<br>');
     }
 }
-bum(0, 2);
+tb(0, 3);
 
-let obj = {
+let tablMultiply ={
+    tbl:function (x, y) {
+        for (x = 0; x <= 10; x++) {
+            rez = (x + '*' + (y) + '= ' + (x * y) + '<br>');
+            return (rez);
+            document.getElementById("out_num").innerHTML=rez;
+        }
+    }
+};
+document.getElementById("out_num").innerHTML=tablMultiply.tbl(0, 2);
+
+
+/*let obj = {
     a: 100,
     user: 21,
     sum: function(){
 
     }
-};
+};*/
 
 //1
 //let x = 0;

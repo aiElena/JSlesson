@@ -7,7 +7,7 @@ let user1 = {
    userBets: [20, 100, 400, 10],
     userDog:{
       voice: function (){
-          alert('Wooo');
+          console.log('Wooo');
       },
     },
     create: function(){
@@ -26,7 +26,7 @@ console.log(date);
 
 Math.max();
 
-alert(user1.userBets);
+console.log(user1.userBets);
 
 function User(name, surname, age){
     this.name = name;
