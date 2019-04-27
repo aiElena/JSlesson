@@ -44,7 +44,6 @@ function updateUser(){
     console.log('Run');
 }
 
-
 function recur(a){
     while (a>30) {
         console.log(a);
